@@ -7,9 +7,35 @@
 
 /* UTILITY */
 
+.col-30 {
+    width: 30%;
+}
+
+.col-70 {
+    width: 70%;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+.col-100 h1 {
+    font-size: 70px;
+    margin: 30px 0;
+}
+
+.col-30 p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
 .row {
     width: 100%;
     display: flex;
+}
+
+.felx-start {
+    justify-content: flex-start;
 }
 
 .flex-center {
@@ -42,8 +68,10 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
     display: flex;
     align-items: center;
+    background-color: white;
 }
 
 .header-col-50 {
@@ -87,32 +115,32 @@ main {
     margin: 0 auto;
 }
 
-.col-100 h1 {
-    font-size: 70px;
-    margin: 30px 0;
-}
-
-.col-30 {
-    width: 30%;
-}
-
-.col-70 {
-    width: 70%;
-}
-
-.col-30 p {
-    font-size: 20px;
-    margin: 20px 0;
-}
-
-.col-30 i {
+.col-30 .arrow {
     font-size: 70px;
 }
 
-.col-70 img {
+.col-70 .position-img {
     width: 100%;
     position: relative;
     top: 60px;
 }
 
 /* SECTION2 */
+
+.section2 {
+    margin-top: 150px;
+}
+
+.col-100 h2 {
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+.input-radio {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input-radio label {
+    margin: 0 20px;
+}
