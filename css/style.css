@@ -62,7 +62,7 @@
     background-color: #2E7DFF;
     border: #2E7DFF;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 
 }
 
@@ -70,6 +70,22 @@
     padding: 20px;
     border: 2px solid lightgray;
 }
+
+.fa-check {
+    color: #2E7DFF;
+}
+
+hr {
+    width: 30%;
+    color: rgb(177, 174, 174);
+    margin: 20px;
+}
+
+
+.content-column {
+    min-height: 800px;
+}
+
 
 /* HEADER */
 
@@ -162,4 +178,17 @@ main {
     text-align: center;
     padding-bottom: 20px;
     border-bottom: 0;
+}
+
+.content-column ul {
+    list-style-type: none;
+}
+
+.content-column li {
+    margin: 20px;
+    font-size: 15px;
+}
+
+.content-column span {
+    color: rgb(128, 127, 127);
 }
