@@ -20,6 +20,11 @@
     justify-content: flex-end;
 }
 
+.container-50 {
+    width: 50%;
+    margin: 0 auto;
+}
+
 .btn-blu {
     padding: 10px;
     background-color: #2E7DFF;
@@ -109,3 +114,5 @@ main {
     position: relative;
     top: 60px;
 }
+
+/* SECTION2 */
