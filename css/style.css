@@ -7,6 +7,10 @@
 
 /* UTILITY */
 
+section {
+    margin-top: 75px;
+}
+
 .col-30 {
     width: 30%;
 }
@@ -27,6 +31,11 @@
 .col-30 p {
     font-size: 20px;
     margin: 20px 0;
+}
+
+.col-70 p {
+    font-size: 15px;
+    padding: 20px 0;
 }
 
 .row {
@@ -86,6 +95,10 @@ hr {
     min-height: 800px;
 }
 
+.text-end {
+    text-align: end;
+}
+
 
 /* HEADER */
 
@@ -124,9 +137,6 @@ header {
 
 /* MAIN */
 
-main {
-    margin-top: 75px;
-}
 
 /* SECTION 1 */
 
@@ -153,10 +163,6 @@ main {
 }
 
 /* SECTION2 */
-
-.section2 {
-    margin-top: 150px;
-}
 
 .col-100 h2 {
     font-size: 50px;
@@ -192,3 +198,5 @@ main {
 .content-column span {
     color: rgb(128, 127, 127);
 }
+
+/* SECTION3 */
