@@ -13,7 +13,9 @@
 
 .btn-blu {
     padding: 10px;
-    background-color: ;
+    background-color: #2E7DFF;
+    border: #2E7DFF;
+    color: white;
 }
 
 /* HEADER */
@@ -36,10 +38,20 @@ header {
 .col-50 {
     width: calc(100% / 2);
     display: flex;
+    align-items: center;
     margin: 0 20px;
+}
+
+.col-50 img {
+    width: 150px;
 }
 
 .col-50 h2 {
     margin: 0 30px;
     font-weight: normal;
+    font-size: 20px;
+}
+
+.col-50 .btn-blu {
+    width: 80px;
 }
