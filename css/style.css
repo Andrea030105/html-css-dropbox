@@ -46,6 +46,12 @@
     justify-content: flex-end;
 }
 
+.space-between {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .container-50 {
     width: 50%;
     margin: 0 auto;
@@ -58,6 +64,11 @@
     color: white;
     font-size: 20px;
 
+}
+
+.border-column {
+    padding: 20px;
+    border: 2px solid lightgray;
 }
 
 /* HEADER */
@@ -143,4 +154,12 @@ main {
 
 .input-radio label {
     margin: 0 20px;
+}
+
+.headers-column {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 0;
 }
