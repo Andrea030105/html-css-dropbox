@@ -2,4 +2,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* UTILITY */
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.btn-blu {
+    padding: 10px;
+    background-color: ;
+}
+
+/* HEADER */
+
+header {
+    height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header-row {
+    width: 100%;
+    display: flex;
+}
+
+.col-50 {
+    width: calc(100% / 2);
+    display: flex;
+    margin: 0 20px;
+}
+
+.col-50 h2 {
+    margin: 0 30px;
+    font-weight: normal;
 }
