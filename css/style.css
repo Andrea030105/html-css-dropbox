@@ -199,4 +199,25 @@ header {
     color: rgb(128, 127, 127);
 }
 
-/* SECTION3 */
+/* SECTION3 USATE SOLO CLASSI COMUNI */
+
+/* SECTION4 */
+
+.partner-img img {
+    padding-right: 10px;
+    width: 90%;
+}
+
+.partner-text {
+    margin-top: 50px;
+}
+
+.partner-text p {
+    font-size: 15px;
+}
+
+.partner-text button {
+    background-color: transparent;
+    border: 1px solid;
+    padding: 10px;
+}
