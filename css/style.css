@@ -308,3 +308,19 @@ p {
     background-color: #FFD830;
 
 }
+
+/* SECTION8 */
+
+.section8 {
+    background-color: #B4D0E7;
+    margin-top: 0;
+}
+
+.content-col-sec8 {
+    margin: 150px 20px;
+}
+
+.content-col-sec8 h2 {
+    font-size: 40px;
+    color: #61082B;
+}
