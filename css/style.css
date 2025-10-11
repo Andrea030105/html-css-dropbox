@@ -324,3 +324,9 @@ p {
     font-size: 40px;
     color: #61082B;
 }
+
+.content-col-sec8 button {
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+}
