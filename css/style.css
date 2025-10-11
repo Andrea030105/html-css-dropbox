@@ -49,7 +49,6 @@ section {
 
 .col-70 p {
     font-size: 15px;
-    padding: 20px 0;
 }
 
 .row {
@@ -329,4 +328,23 @@ p {
     font-size: 15px;
     padding: 15px;
     border: none;
+}
+
+/* SECTION9 */
+
+.container-section9 hr {
+    width: 100%;
+    margin: 0;
+}
+
+.container-section9 p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.check i {
+    padding: 20px 20px;
+    color: rgb(122, 121, 121);
+    margin-top: 15px;
 }
